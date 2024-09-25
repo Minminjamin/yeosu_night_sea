@@ -3,6 +3,8 @@
   "singleQuote": false,
   "tabWidth": 4,
   "printWidth": 200,
-  "plugins": ["prettier-plugin-svelte", "prettier-plugin-tailwindcss"],
+  "plugins": [
+    "prettier-plugin-svelte"
+  ],
   "svelteSortOrder": "options-scripts-styles-markup"
 }
