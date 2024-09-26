@@ -1,4 +1,5 @@
 <script>
+    import Lyrics from "../view/Lyrics.svelte";
 </script>
 
 <style>
@@ -101,6 +102,7 @@
 
 <main class="night">
     <article class="sea">
+        <Lyrics />
         <section class="waveContainer">
             <figure class="wave -one" />
             <figure class="wave -two" />

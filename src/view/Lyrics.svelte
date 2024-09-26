@@ -43,17 +43,20 @@
 
     setInterval(() => {
         currentIndex = (currentIndex + 1) % lyrics.length;
-    }, 2000);
+    }, 1850);
 </script>
 
 <style lang="scss">
     .scroll {
         width: 100%;
-        height: 15%;
-        border: solid 1px red;
+        height: 30%;
         overflow: hidden;
         scroll-behavior: smooth;
         position: relative;
+        color: white;
+        z-index: 1;
+        top: 50%;
+        text-align: center;
     }
 
     section {
@@ -84,12 +87,12 @@
             transform: translateY(0%);
         }
         to {
-            transform: translateY(-1800%);
+            transform: translateY(-3000%);
         }
     }
 
     section {
-        animation: scrollText 20s infinite linear;
+        animation: scrollText 76s infinite linear;
     }
 </style>
 
