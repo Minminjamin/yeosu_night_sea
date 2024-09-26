@@ -12,31 +12,39 @@
     .day {
         background: linear-gradient(to bottom, #00c1ff, #d1f3fd);
         position: relative;
-        position: relative;
         overflow: hidden;
         transform: translate3d(0, 0, 0);
     }
 
+    .night {
+        position: relative;
+        overflow: hidden;
+        background: linear-gradient(to bottom, #22207c, #632f90);
+        position: relative;
+    }
+
+    /* .night::before {
+        content: "";
+        position: absolute;
+        top: 45%;
+        width: 100%;
+        height: 2%;
+        opacity: 0.01;
+        background: white;
+        box-shadow: 2px 0px white inset;
+    } */
+
     .sea {
         width: 100%;
         height: 30%;
-        border: solid 1px black;
         position: fixed;
         bottom: 0;
-        /* overflow: hidden; */
     }
 
     .waveContainer {
         width: 100%;
         height: 100%;
-        border: solid 1px orange;
         background: none;
-        /* border-radius: 5px;
-        box-shadow: 0 2px 30px rgba(black, 0.2);
-        background: lighten(#f0f4c3, 10%);
-        position: relative;
-        overflow: hidden;
-        transform: translate3d(0, 0, 0); */
     }
 
     .wave {
@@ -91,7 +99,7 @@
     /* 갈매기 or 구름 애니메이션ㄴ */
 </style>
 
-<main class="day">
+<main class="night">
     <article class="sea">
         <section class="waveContainer">
             <figure class="wave -one" />
