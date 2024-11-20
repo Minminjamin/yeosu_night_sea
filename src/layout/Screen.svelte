@@ -23,17 +23,6 @@
         position: relative;
     }
 
-    /* .night::before {
-        content: "";
-        position: absolute;
-        top: 45%;
-        width: 100%;
-        height: 2%;
-        opacity: 0.01;
-        background: white;
-        box-shadow: 2px 0px white inset;
-    } */
-
     .sea {
         width: 100%;
         height: 30%;
@@ -99,7 +88,7 @@
     /* 갈매기 or 구름 애니메이션ㄴ */
 </style>
 
-<main class="night">
+<main class="day">
     <article class="sea">
         <section class="waveContainer">
             <figure class="wave -one" />
