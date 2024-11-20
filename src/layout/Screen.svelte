@@ -1,4 +1,5 @@
 <script>
+    import Lyrics from "../view/Lyrics.svelte";
 </script>
 
 <style>
@@ -97,5 +98,6 @@
             <figure class="wave -four" />
             <figure class="wave -five" />
         </section>
+        <Lyrics />
     </article>
 </main>
