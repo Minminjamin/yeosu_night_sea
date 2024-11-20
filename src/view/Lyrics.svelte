@@ -48,12 +48,13 @@
 
 <style lang="scss">
     .scroll {
+        text-align: center;
         width: 100%;
-        height: 15%;
-        border: solid 1px red;
-        overflow: hidden;
-        scroll-behavior: smooth;
+        height: 20%;
         position: relative;
+        /* border: solid 1px red; */
+        top: 40%;
+        z-index: 1;
     }
 
     section {

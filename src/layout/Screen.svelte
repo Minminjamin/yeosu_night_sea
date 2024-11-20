@@ -91,6 +91,7 @@
 
 <main class="day">
     <article class="sea">
+        <Lyrics />
         <section class="waveContainer">
             <figure class="wave -one" />
             <figure class="wave -two" />
@@ -98,6 +99,5 @@
             <figure class="wave -four" />
             <figure class="wave -five" />
         </section>
-        <Lyrics />
     </article>
 </main>
